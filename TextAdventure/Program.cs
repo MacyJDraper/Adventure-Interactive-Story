@@ -29,19 +29,20 @@ namespace TextAdventure
             string name = Console.ReadLine();
 
             Console.WriteLine("Hello " + name);
-            Console.WriteLine("I have never met you before");
-            Console.WriteLine("This is such a small town");
-            Console.WriteLine("People never come to visit");
+            Console.WriteLine("I have never met you before.");
+            Console.WriteLine("This is such a small town.");
+            Console.WriteLine("People never come to visit,");
             Console.WriteLine("Where are you from?");
 
             string home = Console.ReadLine();
 
             Console.WriteLine("HHHmmmmm, I went to " + home + " once");
             Console.WriteLine("a long long time ago");
-            Console.WriteLine("The very next day....");
-            Console.WriteLine("The plain lady decided she would like to get coffee");
-            Console.WriteLine("So she goes to her favorite plain coffe shop");
-            Console.WriteLine("while siting at the plain coffee shop");
+            Console.WriteLine("I remember there was beautiful live music,);
+            Console.WriteLine("and even more hansome men!");
+            Console.WriteLine("I would love to grab coffee with you some time?");
+            Console.ReadLine();
+            if
 
 
 
