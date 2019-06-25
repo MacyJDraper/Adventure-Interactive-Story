@@ -19,15 +19,14 @@ namespace TextAdventure
             Console.WriteLine("Those are so many groceries...");
             Console.WriteLine("She screamed out");
             Console.WriteLine("Oh Dear, would you like some help with your groceries?");
+
             string response = Console.ReadLine();
 
             if (response == "yes")
             {
-                Console.WriteLine("Whats your Name?");
+            Console.WriteLine("Whats your Name?");
             }
-            
             string name = Console.ReadLine();
-
             Console.WriteLine("Hello " + name);
             Console.WriteLine("I have never met you before.");
             Console.WriteLine("This is such a small town.");
@@ -36,7 +35,7 @@ namespace TextAdventure
 
             string home = Console.ReadLine();
 
-            Console.WriteLine("HHHmmmmm, I went to " + home + " once");
+            Console.WriteLine("HHHmmmmm, I went to " + home + "once");
             Console.WriteLine("a long long time ago");
             Console.WriteLine("I remember there was beautiful live music,");
             Console.WriteLine("and even more hansome men!");
@@ -51,8 +50,20 @@ namespace TextAdventure
             else
             {
                 Console.WriteLine("Are you sure, I would really love getting to know you");
+                string answer1 = Console.ReadLine();
+                 if (answer1 == "yes")
+                {
+                    Console.WriteLine("Great we will meet tomorrow at ten"); 
+                }
+                Console.WriteLine("The Very next day the plain women was waiting");
+                Console.WriteLine("to meet" + name + " at the coffee shope.");
+                Console.WriteLine("For some reason she was so intrigued by this beautiful girl.");
+                Console.WriteLine("She grabed them two coffees as she waited on " + name);
+
+
+
             }
-   
+            
         }
     }
 }
