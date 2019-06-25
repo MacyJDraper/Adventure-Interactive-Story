@@ -34,7 +34,7 @@ namespace TextAdventure
             Console.WriteLine("a long long time ago");
             Console.WriteLine("I remember there was beautiful live music,");
             Console.WriteLine("and even more beautiful men!");
-            Console.WriteLine("I would love to grab coffee with you some time?");
+            Console.WriteLine("I would love to grab coffee with you some time to talk about" + home);
             string answer = Console.ReadLine();
             if (answer == "yes")
             {
@@ -84,7 +84,14 @@ namespace TextAdventure
             Console.WriteLine("When I was still a child myself");
             Console.WriteLine("I never spoke to him again but i still think about");
             Console.WriteLine("The beautiful girl I gave up every day.");
-            
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("The End...............");
         }
     }
 }
