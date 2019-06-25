@@ -38,14 +38,21 @@ namespace TextAdventure
 
             Console.WriteLine("HHHmmmmm, I went to " + home + " once");
             Console.WriteLine("a long long time ago");
-            Console.WriteLine("I remember there was beautiful live music,);
+            Console.WriteLine("I remember there was beautiful live music,");
             Console.WriteLine("and even more hansome men!");
             Console.WriteLine("I would love to grab coffee with you some time?");
-            Console.ReadLine();
-            if
+            string answer = Console.ReadLine();
 
+            if (answer == "yes")
+            {
+                Console.WriteLine("Great we will meet tomorrow at ten");
+            }
 
-
+            else
+            {
+                Console.WriteLine("Are you sure, I would really love getting to know you");
+            }
+   
         }
     }
 }
