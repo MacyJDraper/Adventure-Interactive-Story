@@ -34,7 +34,7 @@ namespace TextAdventure
             Console.WriteLine("a long long time ago");
             Console.WriteLine("I remember there was beautiful live music,");
             Console.WriteLine("and even more beautiful men!");
-            Console.WriteLine("I would love to grab coffee with you some time to talk about" + home);
+            Console.WriteLine("I would love to grab coffee with you some time to talk about " + home);
             string answer = Console.ReadLine();
             if (answer == "yes")
             {
